@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Elements</title>
+</head>
+<body>
+  <h1>First Form</h1>
+  <form action="/action"> 
+    Username
+    <input type="text"/>
+    <br/>
+    Password
+    <input type="password"/>
+    <br/>
+    Time
+    <input type="time"/>
+    <br/>
+    Color
+    <input type="color"/>
+  </form>
+  <hr />
+  <!-- Second form -->
+  <h1>Second Form</h1>
+  <form action="/action">
+    <div>
+      <label for="username">Username: </label>
+      <input type="text" placeholder="enter username" id="username" />
+    </div>
+    <div>
+      <label for="password">Password: </label>
+      <input type="password" placeholder="enter password" id="password" />
+    </div>
+    <div>
+      <label for="age">Age: </label>
+      <input type="number" placeholder="enter age" id="age" />
+    </div>
+    <button>Submit</button>
+    <button type="button">hello</button>
+    <button type="reset">Reset</button>
+    <input type="button" value="clich here" />
+    <input type="submit" value="click me" />  
+  </form>
+  <hr />
+  <!-- Third form -->
+  <h1>Third Form</h1>
+  <form action="/action">
+    <div>
+      <label for="username">Username: </label>
+      <input type="text" placeholder="enter username" id="username" name="user"/>
+    </div>
+    <div>
+      <label for="password">Password: </label>
+      <input type="password" placeholder="enter password" id="password" name="pass"/>
+    </div>
+    <button>Submit</button>
+  </form>
+  <hr/>
+  <!-- search to the existing webpages -->
+   <h1>Search to the existing webpages like Google...</h1>
+  <form action="https://www.google.com/search">
+    <input type="text" placeholder="search in google" name="q" />
+    <button>Search</button>
+  </form>
+</body>
+</html>
