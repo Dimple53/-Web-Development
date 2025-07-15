@@ -103,12 +103,24 @@
   <!-- Seventh form -->
   <h1>Seventh Form-multiple selection possible using different name in checkboxes</h1>
   <form action="/action">
+    <div>
     <input type="checkbox" id="science" name="science" value="sci"/>
     <label for="science">Science </label>
     <input type="checkbox" id="math" name="math" value="math"/>
     <label for="math">Math </label>
-    <input type="checkbox" id="english" name="english" value="eng"/>
+    <!-- preselected -->
+    <input type="checkbox" id="english" name="english" value="eng" checked/>
     <label for="english">English </label>
+    </div>
+    <div>
+      Choose your profession
+      <select name="profession" id="profession">
+        <option>Select your option</option>
+        <!-- preselected -->
+        <option value="stu" selected>Student</option>
+        <option value="dev">Developer</option>
+      </select>
+    </div>
     <button>Submit</button>
   </form>
   <hr />
