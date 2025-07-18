@@ -80,3 +80,56 @@ input[type="password"]{
   background-color: aquamarine;
 } */
 /* --- */
+
+/* #myId p{
+  color: green;
+} */
+
+/* or */
+div[id="myId"] p{
+  color: blueviolet;
+}
+
+/* pseudo class- :hover, :active, :checked, :nth-of-type */
+button:hover{
+  background-color: black;
+  color: white;
+}
+
+h3:hover{
+  text-decoration: overline;
+}
+
+button:active{
+  background-color: pink;
+  color: black;
+}
+
+p:active{
+  font-weight: bold;
+  color: green;
+}
+
+input[type="radio"]:checked + label{
+  color: red;
+  font-weight: bold;
+}
+
+div:nth-of-type(2n){
+  background-color: cyan;
+}
+/* --- */
+
+/* pseudo elements- ::first-line, ::first-letter, ::selection */
+h1::first-letter{
+  color: green;
+}
+
+p::first-line{
+  color: rgb(255, 94, 0);
+}
+
+p::selection{
+  background-color: rgb(195, 255, 0);
+}
+/* --- */
