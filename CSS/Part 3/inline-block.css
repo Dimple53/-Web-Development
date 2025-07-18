@@ -1,0 +1,50 @@
+.div1{
+  background-color: greenyellow;
+  border: 5px solid black;
+  height: 100px;
+  width: 200px;
+  padding: 50px;
+  margin: 20px;
+  display: inline-block;
+}
+
+h1{
+  border: 5px solid black;
+  height: 100px;
+  width: 50%;
+}
+
+#outer{
+  background-color: pink;
+  border: 5px solid black;
+  height: 400px;
+  width: 400px;
+  margin: 50px;
+  font-size: 10px;
+}
+
+#inner{
+  background-color: cornflowerblue;
+  border: 5px solid black;
+  height: 100px;
+  width: 100px;
+  margin-left: 10%;
+  font-size: 2em;
+  padding: 1em;
+}
+
+button{
+  font-size: 100px;
+  border-radius: 15px;
+  border: 5px solid green;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+section{
+  font-size: 15px;
+}
+
+div{
+  font-size: 2em;
+}
