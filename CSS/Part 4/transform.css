@@ -8,7 +8,7 @@ div{
   text-align: center;
   background-color: #7aa874;
   border: 2px solid black;
-  margin: 10px;
+  margin: 10px auto;
 }
 
 div:nth-last-of-type(2n){
@@ -26,4 +26,8 @@ div:nth-last-of-type(3n){
 
 #two{
   transform: scaleY(0.5);
+}
+
+#three{
+  transform: translateX(-100px);
 }
