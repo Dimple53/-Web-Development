@@ -1,4 +1,4 @@
-div{
+.content{
   height: 200px;
   width: 500px;
   background-color: pink;
@@ -30,3 +30,32 @@ button{
   /* padding-left: 25px;
   padding-right: 25px; */
 }
+
+h2{
+  display: inline;
+  background-color: pink;
+}
+
+/* span{
+  display: block;
+  background-color: blueviolet;
+} */
+
+span{
+  /* background-color: greenyellow; */
+  border: 5px solid black;
+  height: 100px;
+  width: 200px;
+  padding: 50px;
+  margin: 20px;
+}
+
+div{
+   /* background-color: greenyellow; */
+  border: 5px solid black;
+  height: 100px;
+  width: 200px;
+  padding: 50px;
+  margin: 20px;
+}
+ 
