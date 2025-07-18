@@ -23,3 +23,7 @@ div:nth-last-of-type(3n){
 #one{
   transform: rotate(-45deg);
 }
+
+#two{
+  transform: scaleY(0.5);
+}
