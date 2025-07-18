@@ -31,3 +31,11 @@ div:nth-last-of-type(3n){
 #three{
   transform: translateX(-100px);
 }
+
+#four{
+  transform: skewX(30deg);
+}
+
+#five{
+  transform: rotate(30deg) translateX(150px);
+}
