@@ -133,3 +133,14 @@ p::selection{
   background-color: rgb(195, 255, 0);
 }
 /* --- */
+
+
+/* !important- to show the most specific thing in document(Once you declare something important, you are never able to change this element's property) */
+h3{
+  background-color: antiquewhite !important;
+}
+
+/* cascade- always prority to the last declaration of the css properties */
+h3{
+  background-color: blue;
+}
