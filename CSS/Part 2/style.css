@@ -38,9 +38,15 @@ p a{
   background-color: orange;
 }
 
+/* in this you can go to multiple levels as well or just one step inside */
 nav ul li a{
   color: pink;
 }
+
+/* one step inside */
+/* nav a{
+  color: red;
+} */
 /* --- */
 
 /* sibling combinator */
@@ -53,3 +59,9 @@ p + h3{
   color: darkblue;
 }
 /* --- */
+
+/* child combinator */
+/* but in this only step inside you can go */
+div > input{
+  background-color: darksalmon;
+}
