@@ -1,0 +1,10 @@
+div{
+  width: 1000px;
+  height: 500px;
+  background-color: #7aa874;
+  margin: 10px auto;
+  background-image: url("beach.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
