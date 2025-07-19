@@ -39,3 +39,11 @@ div:nth-last-of-type(3n){
 #five{
   transform: rotate(30deg) translateX(150px);
 }
+
+#six{
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: blueviolet;
+  margin: 10px auto;box-shadow: 2px 2px 8px black;
+}
