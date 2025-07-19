@@ -1,0 +1,57 @@
+#flexContainer{
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  margin: 10px auto;
+  border: 2px solid lightseagreen;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; 
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+.box {
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center; 
+}
+#navbar{
+  width: 900px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid lightseagreen;
+  background-color: pink;
+  display: flex;
+  justify-content: flex-start; 
+  align-content: center;
+}
+.items{
+    width: 50px;
+    height: 80px;
+    border-radius: 10px;
+    /* font-size: 24px; */
+    margin-left: 5px;
+    line-height: 50px;
+    
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
