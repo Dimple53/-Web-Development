@@ -29,8 +29,17 @@ h4 {
   justify-content: space-evenly;
 }
 
+/* media queries */
 @media (max-width:375px){
   #pets {
     flex-wrap: wrap;
+  }
+}
+
+/* media queries (orientation) */
+@media (orientation: landscape){
+  h3 {
+    color: red;
+    background-color: yellow;
   }
 }

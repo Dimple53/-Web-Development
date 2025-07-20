@@ -33,17 +33,14 @@
   50%{
     width: 300px;
     background-color: blue;
- 
   }
   80%{
     width: 500px;
-    background-color: red;
-    
+    background-color: red;   
   }
   100%{
     width: 800px;
     background-color: aqua;
-  
   }
 }
 
