@@ -17,7 +17,9 @@
     }
 
     .grid-container {
-      display: grid;
+      width: 800px;
+      height: 500px;
+      display: inline-grid;
       grid-template-columns: repeat(3, 1fr);
       /* 3 equal columns */
       grid-template-rows: auto;
@@ -25,6 +27,8 @@
       padding: 20px;
       background-color: aqua;
       border: 2px dashed #999;
+      justify-items: start;
+      align-items: center;
     }
 
     .grid-item {
@@ -40,6 +44,7 @@
     .item1 {
       grid-column: span 2;
       /* spans 2 columns */
+      justify-self: center;
     }
 
     .item5 {
@@ -64,6 +69,7 @@
     <div class="grid-item">8</div>
     <div class="grid-item">9</div>
   </div>
+  <span>This is a span</span>
 
 </body>
 
