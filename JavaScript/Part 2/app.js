@@ -60,3 +60,16 @@ else if (size === "M") {
 else { 
   console.log ("price is Rs. 50");
 }
+
+//Nested if else statement
+let marks = 95;
+if (marks >= 33) {
+  console.log("PASS");
+  if (marks >= 80) {
+    console.log("Grade : O");
+  } else {
+    console.log("Grade : A");
+  }
+}else{
+   console.log("Better luck next time!");
+}
