@@ -25,4 +25,9 @@ let n = 5;
 let str = '5';
 console.log(typeof str);
 console.log(n==str);//true becoz it ignores the type in equal to operator.
-console.log(n===str);//false becoz it compares the type also along with the value in triple equal to operator.
+console.log(n === str);//false becoz it compares the type also along with the value in triple equal to operator.
+
+//comaparison for non numbers
+let str1 = 'a';
+let str2 = 'A';
+console.log(str1>str2);//true here comaparing their unicodes
