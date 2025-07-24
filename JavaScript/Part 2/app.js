@@ -30,4 +30,18 @@ console.log(n === str);//false becoz it compares the type also along with the va
 //comaparison for non numbers
 let str1 = 'a';
 let str2 = 'A';
-console.log(str1>str2);//true here comaparing their unicodes
+console.log(str1 > str2);//true here comaparing their unicodes
+
+//if statement
+let lightColor = "green";
+//Traffic light system
+if (lightColor === "red") {
+  console.log("Stop! light color is "+ lightColor);
+}
+if (lightColor === "yellow") {
+  console.log("Slow down light color is "+ lightColor);
+}
+if (lightColor === "green") {
+  // console.log("Go light color is " + lightColor);
+  console.log(`Go light color is ${lightColor}`);
+}
