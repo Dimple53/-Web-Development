@@ -110,4 +110,22 @@ let num = -10;
     console.log("num is not equal to 0");
   } else {
     console.log("num is equal to 0");
-  }
+}
+  
+//switch statement
+let color = "red";
+
+switch (color) {
+  case "red":
+    console.log("stop");
+    break;
+  case "yellow":
+    console.log("slow down");
+    break;
+  case "green":
+    console.log("go");
+    break;
+  default:
+    console.log("Light is broken");
+}
+console.log("after switch statement")
