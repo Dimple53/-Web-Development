@@ -73,3 +73,41 @@ if (marks >= 33) {
 }else{
    console.log("Better luck next time!");
 }
+
+//truthy and falsy
+ if (true) {
+    console.log("It has true value");
+  } else {
+    console.log("It has false value");
+}
+  
+ if (0) {
+    console.log("It has true value");
+  } else {
+    console.log("It has false value");
+}
+  
+ if ("") {
+    console.log("It has true value");
+  } else {
+    console.log("It has false value");
+}
+  
+ if (" ") {
+    console.log("It has true value");
+  } else {
+    console.log("It has false value");
+}
+  
+ if (null) {
+    console.log("It has true value");
+  } else {
+    console.log("It has false value");
+}
+  
+let num = -10;
+ if (num) {
+    console.log("num is not equal to 0");
+  } else {
+    console.log("num is equal to 0");
+  }
