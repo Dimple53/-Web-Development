@@ -129,3 +129,43 @@ switch (color) {
     console.log("Light is broken");
 }
 console.log("after switch statement")
+
+//weeks day
+let day = 17;
+
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saturday");
+    break;
+  case 7:
+    console.log("Sunday");
+    break;
+  default:
+    console.log("Wrong day!");
+}
+
+//alert
+alert("this is a simple alert!");
+console.log("this is a simple log")
+
+//prompts
+let firstName = prompt("enter your name: ");
+console.log(firstName);
+let lastName = prompt("enter last name");
+let msg = "Welcome " + firstName +" "+ lastName + "!";
+alert(msg)
