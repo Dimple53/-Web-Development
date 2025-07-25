@@ -17,6 +17,28 @@ if ((str[0] == 'A' || str[0] == 'a') && (str.length > 5)) {
   console.log("not a golden string");
 }
 
+//largest of 3 numbers
+let a = 4;
+let b = 5;
+let c = 2;
+if (a > b) {
+  if (a > c) {
+    console.log("a is greater");
+  }
+  else {
+    console.log("c is greater");
+  }
+}
+else {
+  if (b > c) {
+    console.log("b is greater");
+  }
+  else {
+    console.log("c is greater");
+  }
+}
+
+
 //Write a program to check if 2 numbers have the same last digit. Eg: 32 and 47852 have the same last digit i.e. 2
 let num1 = 32;
 let num2 = 47852;
