@@ -48,3 +48,26 @@ fruits[0] = "banana";
 console.log(fruits);
 fruits[10] = "papaya";
 console.log(fruits);
+
+//array methods
+let cars = ["audi", "bmw", "xuv", "maruti"];
+//push - add to end
+cars.push("toyato");
+console.log(cars);
+cars.push("ferrari");
+console.log(cars);
+//pop - delete element from end and returns it
+cars.pop();
+console.log(cars);
+//unshift - add to start
+cars.unshift("ferrari");
+console.log(cars);
+//shift - delete from start and returns it
+de = cars.shift();
+console.log(cars);
+console.log(de);
+//real example that you want your followers and blocked user
+let followers = ["a", "b", "c"];
+let blocked = followers.shift();
+console.log(followers);
+console.log(blocked);
