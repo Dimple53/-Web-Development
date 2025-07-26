@@ -87,3 +87,13 @@ console.log(months1.indexOf("apr"));//4
 console.log(months1.indexOf("sep"));//-1 becoz not exist
 console.log(months1.includes("apr"));//true becoz it exists
 console.log(months1.includes("sep"));//false becoz not exist
+
+//concatenation and reverse
+let primary = ["red", "yellow", "blue"];
+let secondary = ["orange", "green", "violet"];
+console.log(primary.concat(secondary));//this is simply new array
+console.log(primary);//it is same as before
+console.log(secondary.concat(primary));//firstly secondary elements comes and then primary
+//reverse
+console.log(primary.reverse());
+console.log(primary);//so it changes in the original array
