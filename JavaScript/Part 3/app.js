@@ -7,3 +7,8 @@ let msg = "    hello    ";
 //Method chaining
 let newMsg = msg.trim().toUpperCase();
 console.log(newMsg);
+
+//slice method
+let msg1 = "college";
+// console.log(msg1.slice(3))//lege
+console.log(msg1.slice(-2))//7-2=5
