@@ -41,3 +41,10 @@ console.log(newArr.length);
 console.log(info);
 console.log(info[0][2]);//m--- [0]-index, [2]- you want to access 3rd character
 console.log([].length);
+
+//arrays are mutable
+let fruits = ["apple", "mango", "litchi"];
+fruits[0] = "banana";
+console.log(fruits);
+fruits[10] = "papaya";
+console.log(fruits);
