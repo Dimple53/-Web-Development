@@ -71,3 +71,19 @@ let followers = ["a", "b", "c"];
 let blocked = followers.shift();
 console.log(followers);
 console.log(blocked);
+
+//Practice question - start:["jan", "jul", "mar", "aug"]--->final:["jul", "jun", "mar", "aug"]
+let months = ["jan", "jul", "mar", "aug"];
+console.log(months );
+months.shift();//delete -jan
+months .shift();//delete -jul
+months.unshift("jun");//add - jun
+months .unshift("jul");//add - jul
+console.log(months);
+
+//indexOf and includes method
+let months1 = ["jan", "jul", "mar", "aug", "apr"];
+console.log(months1.indexOf("apr"));//4
+console.log(months1.indexOf("sep"));//-1 becoz not exist
+console.log(months1.includes("apr"));//true becoz it exists
+console.log(months1.includes("sep"));//false becoz not exist
