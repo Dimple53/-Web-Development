@@ -90,10 +90,20 @@ console.log(months1.includes("sep"));//false becoz not exist
 
 //concatenation and reverse
 let primary = ["red", "yellow", "blue"];
-let secondary = ["orange", "green", "violet"];
+let secondary = ["orange", "green", "violet", "black", "pink"];
 console.log(primary.concat(secondary));//this is simply new array
 console.log(primary);//it is same as before
 console.log(secondary.concat(primary));//firstly secondary elements comes and then primary
 //reverse
 console.log(primary.reverse());
-console.log(primary);//so it changes in the original array
+console.log(primary);//so it changes in the original
+
+//slice in arrays
+console.log(secondary.slice());
+console.log(secondary.slice(1));
+console.log(secondary.slice(1,3));
+console.log(secondary.slice(0, 4));//4 excluded
+console.log(secondary.slice(5));
+console.log(secondary.slice(4));
+console.log(secondary.slice(-1));
+console.log(secondary.slice(-2));
