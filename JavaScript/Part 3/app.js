@@ -161,3 +161,9 @@ console.log(nums.length);
 console.log(nums[0]);
 console.log(nums[0].length);
 console.log(nums[1][1]);//4
+
+//Practice question - tic tac toe game state
+let tic = [["X", null, "0"], [null, "X", "0"], ["0",  "X", null]];
+console.log(tic);
+tic[0][1] = "0";
+console.log(tic);
