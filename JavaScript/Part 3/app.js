@@ -151,5 +151,13 @@ console.log(arr2.push("e"));
 console.log(arr2);
 console.log(arr2.pop());
 console.log(arr2);
-arr2 = ["a", "b", "c", "d", "f"];
+// arr2 = ["a", "b", "c", "d", "f"];
 // console.log(arr2);//TypeError: Assignment to constant variable is not possible in js.
+
+//nested arrays
+let nums = [[1, 2], [3, 4], [5, 6]];
+console.log(nums);
+console.log(nums.length);
+console.log(nums[0]);
+console.log(nums[0].length);
+console.log(nums[1][1]);//4
