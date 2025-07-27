@@ -138,3 +138,18 @@ console.log(arrCopy);
 console.log(arrCopy.pop());
 console.log(arrCopy);
 console.log(arr1);
+
+//constant arrays
+const g = 10;
+console.log(g);
+// g = 12;
+// console.log(g);//TypeError: Assignment to constant variable is not possible in js.
+
+//we can perforn operation on array elements but can't completely change the array 
+const arr2 = ["a", "b", "c", "d", "f"];
+console.log(arr2.push("e"));
+console.log(arr2);
+console.log(arr2.pop());
+console.log(arr2);
+arr2 = ["a", "b", "c", "d", "f"];
+// console.log(arr2);//TypeError: Assignment to constant variable is not possible in js.
