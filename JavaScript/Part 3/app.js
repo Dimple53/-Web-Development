@@ -115,3 +115,14 @@ console.log(myFish.splice(2));
 console.log(myFish);
 console.log(myFish.splice(0, 1, "lily", "cosmo"));
 console.log(myFish);
+
+//sort in arrays
+console.log(myFish.sort());
+
+//Practice question
+let months2 = ["jan", "jul", "mar", "aug"];
+console.log(months2.splice(0, 2, "jul", "jun"))
+console.log(months2);
+
+let arr = ["C", "C++", "html", "JavaScript", "Python", "Java", "C#", "sql"]
+console.log(arr.reverse().indexOf("JavaScript"));//4
