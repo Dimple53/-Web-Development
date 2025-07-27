@@ -98,7 +98,7 @@ console.log(secondary.concat(primary));//firstly secondary elements comes and th
 console.log(primary.reverse());
 console.log(primary);//so it changes in the original
 
-//slice in arrays
+//slice in arrays - copies a portion of an array
 console.log(secondary.slice());
 console.log(secondary.slice(1));
 console.log(secondary.slice(1,3));
@@ -107,3 +107,11 @@ console.log(secondary.slice(5));
 console.log(secondary.slice(4));
 console.log(secondary.slice(-1));
 console.log(secondary.slice(-2));
+
+//splice in arrays - splice(start, deleteCount, item0...itemN)
+const myFish = ["parrot", "anemone", "blue", "trumpet", "sturgeon"];
+console.log(myFish);
+console.log(myFish.splice(2));
+console.log(myFish);
+console.log(myFish.splice(0, 1, "lily", "cosmo"));
+console.log(myFish);
