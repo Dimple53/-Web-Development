@@ -126,3 +126,15 @@ console.log(months2);
 
 let arr = ["C", "C++", "html", "JavaScript", "Python", "Java", "C#", "sql"]
 console.log(arr.reverse().indexOf("JavaScript"));//4
+
+//array references
+let arr1 = ["a", "b", "c", "d"];
+let arrCopy = arr1;
+console.log(arr1 == arrCopy);//true  because we store the address not the value in the arrayCopy
+console.log(arr1 === arrCopy);
+console.log(arr1.push("e"));
+console.log(arr1);
+console.log(arrCopy);
+console.log(arrCopy.pop());
+console.log(arrCopy);
+console.log(arr1);
