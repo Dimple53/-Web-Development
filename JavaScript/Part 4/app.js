@@ -28,9 +28,16 @@
 // for (let i = 5; i <= 50; i = i + 5){
 //   console.log(i);
 // }
-let n = prompt("write your number")
-n = parseInt(n);
-for (let i = n; i <= n*10; i = i + n){
-  console.log(i);
-}
+// let n = prompt("write your number")
+// n = parseInt(n);
+// for (let i = n; i <= n*10; i = i + n){
+//   console.log(i);
+// }
 
+
+//nested for loop
+for (let i = 1; i <= 4; i++){//outer loop
+  for (let j = 1; j <= 3; j++){//inner loop
+    console.log(j);
+  }
+}
