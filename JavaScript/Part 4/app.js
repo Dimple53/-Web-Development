@@ -85,11 +85,22 @@
 // }
 
 //nested loops with nested arrays
-let heroes = [["ironman", "spiderman", "thor"], ["superman", "wonder", "flash"]];
+// let heroes = [["ironman", "spiderman", "thor"], ["superman", "wonder", "flash"]];
 
-for (let i = 0; i < heroes.length; i++){
-  console.log(i, heroes[i]);
-  for (let j = 0; j < heroes[i].length; j++){
-    console.log(`j=${j}`, heroes[i][j]);
-  }
+// for (let i = 0; i < heroes.length; i++){
+//   console.log(i, heroes[i]);
+//   for (let j = 0; j < heroes[i].length; j++){
+//     console.log(`j=${j}`, heroes[i][j]);
+//   }
+// }
+
+//for of loop
+let fruits = ["mango", "apple", "banana", "litchi", "orange"];
+
+for (fruit of fruits){
+  console.log(fruit);
+}
+
+for (char of "dimple"){
+  console.log(char);
 }
