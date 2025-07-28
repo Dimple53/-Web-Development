@@ -95,12 +95,21 @@
 // }
 
 //for of loop
-let fruits = ["mango", "apple", "banana", "litchi", "orange"];
+// let fruits = ["mango", "apple", "banana", "litchi", "orange"];
 
-for (fruit of fruits){
-  console.log(fruit);
-}
+// for (fruit of fruits){
+//   console.log(fruit);
+// }
 
-for (char of "dimple"){
-  console.log(char);
+// for (char of "dimple"){
+//   console.log(char);
+// }
+
+//nested for-of loop
+let heroes = [["ironman", "spiderman", "thor"], ["superman", "wonder", "flash"]];
+
+for (list of heroes) {
+  for (hero of list) {
+    console.log(hero);
+  }
 }
