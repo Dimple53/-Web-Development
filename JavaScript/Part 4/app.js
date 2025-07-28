@@ -66,13 +66,20 @@
 // }
 
 //break keyword
-let i = 1;
+// let i = 1;
 
-while (i <= 5) {
-  if (i == 3) {
-    break;
-  }
-  console.log(i);
-  i++;
+// while (i <= 5) {
+//   if (i == 3) {
+//     break;
+//   }
+//   console.log(i);
+//   i++;
+// }
+// console.log("we used break at 3");
+
+//loops with arrays
+let fruits = ["mango", "apple", "banana", "litchi", "orange"];
+fruits.push("pineapple")
+for (let i = 0; i < fruits.length; i++){
+  console.log(i, fruits[i]);
 }
-console.log("we used break at 3");
