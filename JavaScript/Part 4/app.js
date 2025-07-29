@@ -106,10 +106,10 @@
 // }
 
 //nested for-of loop
-let heroes = [["ironman", "spiderman", "thor"], ["superman", "wonder", "flash"]];
+// let heroes = [["ironman", "spiderman", "thor"], ["superman", "wonder", "flash"]];
 
-for (list of heroes) {
-  for (hero of list) {
-    console.log(hero);
-  }
-}
+// for (list of heroes) {
+//   for (hero of list) {
+//     console.log(hero);
+//   }
+// }
