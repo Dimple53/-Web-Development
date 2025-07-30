@@ -60,7 +60,7 @@ console.log(obj.null);
 console.log(obj.undefined);
 console.log(obj.true);
 
-//object of objects
+//object of objects(nested objects)
 const classInfo = {
   dimple: {
     grade: "O",
@@ -80,3 +80,30 @@ console.log(classInfo.dimple);
 console.log(classInfo.dimple.city);
 classInfo.dimple.city = "Mumbai";
 console.log(classInfo.dimple);
+
+//array of objects
+const classInfo1 = [
+  {
+    name: "dimple",
+    grade: "O",
+    city: "Chandigarh"
+  },
+  {
+    name: "addy",
+    grade: "A",
+    city: "Delhi"
+  },
+  {
+    name: "twinkle",
+    grade: "A+",
+    city: "Pune"
+  }
+];
+console.log(classInfo1);
+console.log(classInfo1[0]);
+console.log(classInfo1[1]);
+console.log(classInfo1[1].name);
+classInfo1[1].city = "Mumbai";
+console.log(classInfo1[1]);
+classInfo1[1].gender = "Male";
+console.log(classInfo1[1]);
