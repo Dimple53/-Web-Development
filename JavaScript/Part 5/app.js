@@ -2,8 +2,21 @@
 const student = {
   name: "twinkle",
   age: 21,
-  marks: 94.4
+  marks: 94.4,
+  city: "Chandigarh"
 };
+console.log(student);
+
+//add/update values
+console.log(student.city);
+student.city = "Mumbai";//update existing value
+console.log(student.city);
+console.log(student);
+student.gender = "female";//add
+console.log(student);
+student.marks = "A";
+console.log(student);
+console.log(delete student.age);
 console.log(student);
 
 const item = {
@@ -46,3 +59,4 @@ console.log(obj[1]);
 console.log(obj.null);
 console.log(obj.undefined);
 console.log(obj.true);
+
