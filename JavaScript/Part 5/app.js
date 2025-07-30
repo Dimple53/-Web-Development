@@ -12,3 +12,13 @@ const item = {
   colors: ["red", "pink"]
 };
 console.log(item);
+
+//Creating a post
+const post = {
+  username: "@abc1234",
+  content: "This is my #firstPost",
+  likes: 150,
+  reposts: 5,
+  tags: ["@xyz", "@delta"]
+};
+console.log(post);
