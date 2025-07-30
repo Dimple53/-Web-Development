@@ -113,6 +113,37 @@ console.log(Math.abs(-15));
 console.log(Math.pow(2, 4));
 console.log(Math.floor(5.555559));
 console.log(Math.floor(7.999999999));
-console.log(Math.floor(-5.5));//nearest smallest round off value
+console.log(Math.floor(-5.5));//nearest smallest round off integer value
 console.log(Math.ceil(5.5));
+console.log(Math.ceil(5.0000000001));
+console.log(Math.ceil(-5.5));//nearest largest value
 console.log(Math.random());
+
+//random integers
+//from 1 to 10
+// let random = Math.floor(Math.random() * 10) + 1;
+// console.log(random);
+
+//guessing game
+const max = prompt("enter the max number");
+console.log(`Your maximum number was : ${ max }`);
+
+const random = Math.floor(Math.random() * max) + 1;
+
+let guess = prompt("guess the number");
+
+while (true) {
+  if (guess == "quit") {
+    console.log("user quit");
+    break;
+  }
+  if (guess == random) {
+    console.log("you are right! congrats!! random number was", random);
+    break;
+  }else if(guess<random){
+    guess = prompt("hnt: your guess was too small. please try again");
+  }
+  else {
+    guess = prompt("your guess was too large. please try again");
+  }
+}
