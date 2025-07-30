@@ -32,3 +32,17 @@ console.log(post.tags[0]);
 let prop = "reposts";
 console.log(post[prop]);
 console.log(post.prop);//undefined becoz we can't access through variables like prop so we need square bracket for this
+
+//conversion in get values
+const obj = {
+  1: "a",
+  2: "b",
+  true: "c",
+  null: "d",
+  undefined: "e",
+};
+console.log(obj[1]);
+// console.log(obj.1);//can't change directly to string use square bracket
+console.log(obj.null);
+console.log(obj.undefined);
+console.log(obj.true);
