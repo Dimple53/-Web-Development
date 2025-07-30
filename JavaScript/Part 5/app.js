@@ -7,7 +7,7 @@ const student = {
 };
 console.log(student);
 
-//add/update values
+//add/update and delete values
 console.log(student.city);
 student.city = "Mumbai";//update existing value
 console.log(student.city);
@@ -60,3 +60,23 @@ console.log(obj.null);
 console.log(obj.undefined);
 console.log(obj.true);
 
+//object of objects
+const classInfo = {
+  dimple: {
+    grade: "O",
+    city: "Chandigarh"
+  },
+  addy: {
+    grade: "A",
+    city: "Delhi"
+  },
+  twinkle: {
+    grade: "A+",
+    city: "Pune"
+  }
+};
+console.log(classInfo);
+console.log(classInfo.dimple);
+console.log(classInfo.dimple.city);
+classInfo.dimple.city = "Mumbai";
+console.log(classInfo.dimple);
