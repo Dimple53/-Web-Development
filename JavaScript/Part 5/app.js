@@ -107,3 +107,12 @@ classInfo1[1].city = "Mumbai";
 console.log(classInfo1[1]);
 classInfo1[1].gender = "Male";
 console.log(classInfo1[1]);
+
+//math object
+console.log(Math.abs(-15));
+console.log(Math.pow(2, 4));
+console.log(Math.floor(5.555559));
+console.log(Math.floor(7.999999999));
+console.log(Math.floor(-5.5));//nearest smallest round off value
+console.log(Math.ceil(5.5));
+console.log(Math.random());
