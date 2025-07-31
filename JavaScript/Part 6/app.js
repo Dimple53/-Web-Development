@@ -28,6 +28,14 @@ printInfo(14);//14's age is undefined.
 //function that give us the average of 3 numbers
 function calcAvg(a, b, c){
   let avg = (a + b + c) / 3;
-  console.log(avg);
+  console.log("Average: ",avg);
 }
 calcAvg(2, 4, 6);
+
+//function that prints the multiplication table of a number.
+function printTable(n) {
+  for (let i = n; i <= n * 10; i += n){
+    console.log(i);
+  }
+}
+printTable(5)
