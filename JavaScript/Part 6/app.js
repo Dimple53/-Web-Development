@@ -23,4 +23,11 @@ function printInfo(name, age) {
 printInfo("rajat", 19);
 printInfo("aman", 29);
 printInfo("karan");
-printInfo(14);
+printInfo(14);//14's age is undefined.
+
+//function that give us the average of 3 numbers
+function calcAvg(a, b, c){
+  let avg = (a + b + c) / 3;
+  console.log(avg);
+}
+calcAvg(2, 4, 6);
