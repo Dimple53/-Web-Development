@@ -15,3 +15,12 @@ function rollDice(){
   console.log(rand);
 }
 rollDice();
+
+//functions with arguments
+function printInfo(name, age) {
+  console.log(`${name}'s age is ${age}.`);
+}
+printInfo("rajat", 19);
+printInfo("aman", 29);
+printInfo("karan");
+printInfo(14);
