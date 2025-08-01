@@ -39,3 +39,24 @@ function printTable(n) {
   }
 }
 printTable(5)
+
+//return keyword
+function sum(a, b) {
+  console.log("hello world");
+  console.log("hello world");
+  return a + b;
+  console.log(sum(1, 2));//it never be executed becoz after return the exectuion stops
+}
+console.log(sum(1, 2));
+
+//return the sum of numbers from 1 to n
+function getSum(n) {
+  let sum = 0;
+  for (let i = 1; i <= n; i++){
+    sum += i;
+  }
+  return sum;
+}
+console.log(getSum(3));
+
+//returns the concatenation of all strings in an array

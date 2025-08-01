@@ -38,12 +38,14 @@ console.log(post);
 
 //get values
 console.log(post["content"]);
+// console.log(post[content]);content is not defined becoz it assumes as variable but it is string so square brackets without inverted commas is good for acessing variables 
+// console.log(post."content");unexpected string here we have to just simply write key
 console.log(post["likes"]);
 console.log(post.content);
 console.log(post.tags[0]);
 
 let prop = "reposts";
-console.log(post[prop]);
+console.log(post[prop]);//so square brackets without inverted commas is good for acessing variables becoz prop is variable
 console.log(post.prop);//undefined becoz we can't access through variables like prop so we need square bracket for this
 
 //conversion in get values
@@ -59,6 +61,8 @@ console.log(obj[1]);
 console.log(obj.null);
 console.log(obj.undefined);
 console.log(obj.true);
+console.log(obj[null]);
+console.log(obj["true"]);
 
 //object of objects(nested objects)
 const classInfo = {
