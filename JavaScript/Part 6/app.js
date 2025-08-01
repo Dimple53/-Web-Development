@@ -57,6 +57,6 @@ function getSum(n) {
   }
   return sum;
 }
-console.log(getSum(3));
+console.log(getSum(5));
 
 //returns the concatenation of all strings in an array
