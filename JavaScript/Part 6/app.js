@@ -69,3 +69,14 @@ function concat(str) {
   return result;
 }
 console.log(concat(str));//hihellobye!
+
+//function scope
+let sum1 = 45;//Global Scope
+
+function calSum(a, b) {
+  // let sum1 = a + b;//Functions Scope not accessible outside the function so it is more specific 
+  console.log(sum1);//if it has no fxn scope variable then it uses global scope variable becoz this variable use anywhere
+}
+
+calSum(1, 3);
+console.log(sum1);//here it prints the global scope variable
