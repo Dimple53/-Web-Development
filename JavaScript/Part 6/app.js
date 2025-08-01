@@ -80,3 +80,11 @@ function calSum(a, b) {
 
 calSum(1, 3);
 console.log(sum1);//here it prints the global scope variable
+
+//block scope
+let age1 = 24;
+if (age1 >= 18) {
+  let strs = "adult";
+  // console.log(strs);
+}
+console.log(strs);//can't access outside the block
