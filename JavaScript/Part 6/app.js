@@ -85,6 +85,35 @@ console.log(sum1);//here it prints the global scope variable
 let age1 = 24;
 if (age1 >= 18) {
   let strs = "adult";
-  // console.log(strs);
+  console.log(strs);
 }
-console.log(strs);//can't access outside the block
+// console.log(strs);//can't access outside the block
+
+//lexical scope
+function outerFunc() {
+  let x = 5;
+  let y = 8;
+  function innerFunc() {//fxn scope so this can use only inside the outer fxn not outside
+    let a = 10;//not accessible outside this inner fxn
+    console.log(x);//outer fxn variable can accessible inside the fxns
+    console.log(y);
+  }
+  // let x = 5;you can define as well called hoisting concept
+  // let y = 8;
+  // console.log(a);//not accessible outside this inner fxn
+  innerFunc();//
+}
+
+//practice question
+let greet = "hello";//global scope
+
+function changeGreet() {//fxn scope
+  let greet = "namaste";
+  console.log("changeGreet: ",greet);
+  function innerGreet() {//lexical scope
+    console.log("innerGreet: ", greet);
+  }
+  innerGreet();
+}
+console.log(greet);//here global printed
+changeGreet();
