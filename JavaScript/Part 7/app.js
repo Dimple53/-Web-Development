@@ -40,3 +40,11 @@ const pow = (a,b) => {
 
 //implicit return in arrow funcions
 const mul = (a,b) =>  a * b;
+
+//set timeout
+console.log("Hi there!");
+
+setTimeout(() => {
+  console.log("JavaScript");
+}, 4000);//javascript will print after 4s
+console.log("Welcome to");
