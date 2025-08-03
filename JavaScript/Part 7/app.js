@@ -42,9 +42,20 @@ const pow = (a,b) => {
 const mul = (a,b) =>  a * b;
 
 //set timeout
-console.log("Hi there!");
+// console.log("Hi there!");
 
-setTimeout(() => {
-  console.log("JavaScript");
-}, 4000);//javascript will print after 4s
-console.log("Welcome to");
+// setTimeout(() => {
+//   console.log("JavaScript");
+// }, 4000);//javascript will print after 4s
+// console.log("Welcome to");
+
+//set interval
+let id = setInterval(() => {
+  console.log("JS");
+}, 2000);//javascript will print after 4s
+console.log(id);
+
+let id2 = setInterval(() => {
+  console.log("Hello world");
+}, 2000);//javascript will print after 4s
+console.log(id2);
