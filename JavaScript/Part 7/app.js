@@ -16,3 +16,11 @@ console.log(student.getAvg());
 function getAvg() {
   console.log(this);//by default value of this keyword is window oject when we defining function in general cases
 }
+
+//try & catch
+// let a = 5;
+try {
+  console.log(a);
+} catch {
+  console.log("caught an error... a is not defined");
+}
