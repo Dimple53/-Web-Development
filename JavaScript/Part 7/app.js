@@ -50,12 +50,38 @@ const mul = (a,b) =>  a * b;
 // console.log("Welcome to");
 
 //set interval
-let id = setInterval(() => {
-  console.log("JS");
-}, 2000);//javascript will print after 4s
-console.log(id);
+// let id = setInterval(() => {
+//   console.log("JS");
+// }, 2000);//javascript will print after 4s
+// console.log(id);
 
-let id2 = setInterval(() => {
-  console.log("Hello world");
-}, 2000);//javascript will print after 4s
-console.log(id2);
+// let id2 = setInterval(() => {
+//   console.log("Hello world");
+// }, 2000);//javascript will print after 4s
+// console.log(id2);
+
+//this with arrow functions
+const students = {
+  name: "aman",
+  marks: 95,
+  prop: this,//global scope
+  getName: function () {
+    console.log(this);
+    return this.name;
+  },
+  getMarks: () => {
+    console.log(this);//parent's scope ->  window
+    return this.marks;
+  },
+  getInfo1: function () {
+    setTimeout(() => {
+      console.log(this);//student
+    }, 2000);
+  },
+  getInfo2: function () {
+    setTimeout(function () {
+      console.log(this);//window
+    }, 2000);
+  },
+};
+
