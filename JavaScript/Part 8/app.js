@@ -73,3 +73,13 @@ let ans = nums.filter((el) => {
 [2, 2, 4, 9].every((el) => el % 2 == 0);//false directly copy paste in the console
 
 [1, 2, 3, 4].some((el) => el % 2 == 0);//true
+[1, 3].some((el) => el % 2 == 0);//false
+
+//reduce method
+let number = [1, 2, 3, 4];
+let finalVal = number.reduce((res, el) => {
+  console.log("res: ", res);
+  return res + el;
+});
+console.log(finalVal);
+
