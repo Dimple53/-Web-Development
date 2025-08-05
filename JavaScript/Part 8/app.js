@@ -109,5 +109,13 @@ function getMin(num2) {
   });
   return min;
 }
-let num2 = [10, 20, 30, 40];
+let num2 = [16, 20, 30, 40];
 console.log(getMin(num2));
+
+//default  parameters
+function sum(a, b=2) {
+  return a + b;
+}
+
+sum(1, 3);//4
+sum(1);//a=1,b=undefined
