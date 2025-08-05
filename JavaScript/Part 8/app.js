@@ -134,3 +134,49 @@ let even = [2, 4, 6, 8, 10];
 
 let nums1 = [...odd, ...even];//order matters
 let nums2 = [...even, ...odd];
+
+//spread(array literals)
+const data = {
+  email: "ironman@gmail.com",
+  password: "abcd",
+};
+
+const dataCopy = { ...data, id: 123, country: "India" };
+
+let arr4 = [1, 2, 3, 4, 5];
+let obj1 = { ...arr4 };//obj -> key:val
+let obj2 = { ..."hello" };
+
+//rest
+function sum11(...args) {
+  //arguments
+  for (let i = 0; i < args.length; i++){
+    console.log("you gave us:", args[i]);
+  }
+}
+
+function min() {
+  console.log(arguments);
+  console.log(arguments.length);
+  arguments.push(1);
+}
+
+function min(msg, ...args) {
+  console.log(msg);
+  return args.reduce((min, el) => {
+    if (min > el) {
+      return el;
+    } else {
+      return min;
+    }
+  });
+}
+
+//Destructuring
+let names = ["tony", "bruce", "peter", "steve"];
+// let winner = names[0];
+// let runnerup = names[1];
+// let secondRunnerup = names[2];
+
+// let [winner, runnerup, secondRunnerup] = names;
+let [winner, runnerup, ...others] = names;
