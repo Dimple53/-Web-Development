@@ -93,3 +93,21 @@ let max = arr.reduce((max, el) => {
   }
 });
 console.log(max);
+
+//check if all numbers in our array are  multiples of 10 or not
+let num1 = [10, 20, 30, 40];
+let ans1 = num1.every((el) => el % 10 == 0);
+console.log(ans1);
+
+function getMin(num2) {
+  let min = num2.reduce((min, el) => {
+    if (min < el) {
+      return min;
+    } else {
+      return el;
+    }
+  });
+  return min;
+}
+let num2 = [10, 20, 30, 40];
+console.log(getMin(num2));
