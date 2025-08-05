@@ -119,3 +119,18 @@ function sum(a, b=2) {
 
 sum(1, 3);//4
 sum(1);//a=1,b=undefined
+
+//spread(array literals)
+let arr34 = [1, 2, 3, 4, 5];
+let newArr = [...arr34];
+console.log(arr34);
+console.log(newArr);
+newArr.push(6);
+console.log(newArr);
+console.log(arr34);
+
+let odd = [1, 2, 3, 4, 5];
+let even = [2, 4, 6, 8, 10];
+
+let nums1 = [...odd, ...even];//order matters
+let nums2 = [...even, ...odd];
