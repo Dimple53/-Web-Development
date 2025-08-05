@@ -83,3 +83,13 @@ let finalVal = number.reduce((res, el) => {
 });
 console.log(finalVal);
 
+//maximum in array
+let arr = [1, 2, 3, 4, 5, 6, 7, 15, 6];
+let max = arr.reduce((max, el) => {
+  if (max < el) {
+    return el;
+  } else {
+    return max;
+  }
+});
+console.log(max);
