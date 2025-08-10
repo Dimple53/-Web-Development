@@ -1,2 +1,9 @@
 //selecting element by id
 console.log(document.getElementById("mainImg"));
+
+//selecting element by class name
+let smallImages = document.getElementsByClassName("oldImg");
+
+for (let i = 0; i < smallImages.length; i++){
+  console.dir(smallImages[i]);
+}
