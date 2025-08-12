@@ -10,3 +10,8 @@ for (let i = 0; i < smallImages.length; i++){
 
 //selecting elements by tag name
 // document.getElementsByTagName("P");//on console
+
+//query selectors
+console.dir(document.querySelector("h1"));
+console.dir(document.querySelectorAll("p"));
+console.dir(document.querySelector("div a"));
