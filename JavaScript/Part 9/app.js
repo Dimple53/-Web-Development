@@ -15,3 +15,5 @@ for (let i = 0; i < smallImages.length; i++){
 console.dir(document.querySelector("h1"));
 console.dir(document.querySelectorAll("p"));
 console.dir(document.querySelector("div a"));
+
+//selecting content in objects
