@@ -17,3 +17,6 @@ console.dir(document.querySelectorAll("p"));
 console.dir(document.querySelector("div a"));
 
 //selecting content in objects
+//innerText
+//textContent
+//innerHtml
