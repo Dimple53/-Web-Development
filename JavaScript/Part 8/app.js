@@ -180,3 +180,16 @@ let names = ["tony", "bruce", "peter", "steve"];
 
 // let [winner, runnerup, secondRunnerup] = names;
 let [winner, runnerup, ...others] = names;
+
+//Destructuring(Objects)
+const student = {
+  name: "karan",
+  age: 14,
+  class: 9,
+  subjects: ["hindi", "english", "math", "science"],
+  username: "karan@123",
+  password: "abcde",
+  city: "Pune",
+};
+
+let { username: user, password: secret, city: place = "Mumbai"} = student;
