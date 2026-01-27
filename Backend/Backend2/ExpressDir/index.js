@@ -9,6 +9,26 @@ app.listen(port, () => {
 });
 
 //Handling requests
-app.use((req, res) => {
-  console.log('request received');
-})
+// app.use((req, res) => {
+//   console.log('request received');
+//   res.send({
+//     name: "apple",
+//     color: "red",
+//   });
+// });
+
+app.get("/", (req, res) => {
+  res.send("you contacted root path");
+});
+
+app.get("/apple", (req, res) => {
+  res.send("you contacted apple path");
+});
+
+app.get("/orange", (req, res) => {
+  res.send("you contacted orange path");
+});
+
+app.post("/", (req, res) => {
+  res.send("you sent a post request to root");
+});
