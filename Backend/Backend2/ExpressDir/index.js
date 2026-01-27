@@ -35,6 +35,14 @@ app.get("/:username/:id", (req, res) => {
   res.send(htmlStr);
 });
 
+app.get("/search", (req, res) => {
+  const q = req.query.q;
+  if (!q) {
+    res.send("nothing searched");
+  }
+  res.send(`search results for query: ${q}`);
+});
+
 app.post("/", (req, res) => {
   res.send("you sent a post request to root");
 });
