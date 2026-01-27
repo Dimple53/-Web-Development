@@ -29,6 +29,12 @@ app.get("/orange", (req, res) => {
   res.send("you contacted orange path");
 });
 
+app.get("/:username/:id", (req, res) => {
+  let { username, id } = req.params;
+  let htmlStr =  `<h1>welcome to the page of @${username}!</h1>`
+  res.send(htmlStr);
+});
+
 app.post("/", (req, res) => {
   res.send("you sent a post request to root");
 });
