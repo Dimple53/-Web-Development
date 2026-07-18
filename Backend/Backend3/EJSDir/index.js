@@ -25,6 +25,10 @@ app.get("/rolldice", (req, res) => {
   res.render("rolldice", { num: randomNumber });
 });
 
+// app.get("/rolldice", (req, res) => {
+//   res.render("rolldice");
+// });
+
 
 app.listen(port, () => {
   console.log(`app is listening on the port ${port}`);
