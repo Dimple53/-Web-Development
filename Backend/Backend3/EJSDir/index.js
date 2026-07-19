@@ -12,8 +12,9 @@ app.get("/", (req, res) => {
 });
 
 app.get("/ig/:username", (req, res) => {
+  const followers = ["john_doe", "jane_smith", "alex_123"];
   let { username } = req.params;
-  res.render("instagram", { username });
+  res.render("instagram", { username, followers});
 });
 
 app.get("/about", (req, res) => {
@@ -24,10 +25,6 @@ app.get("/rolldice", (req, res) => {
   let randomNumber = Math.floor(Math.random() * 6) + 1;
   res.render("rolldice", { num: randomNumber });
 });
-
-// app.get("/rolldice", (req, res) => {
-//   res.render("rolldice");
-// });
 
 
 app.listen(port, () => {
